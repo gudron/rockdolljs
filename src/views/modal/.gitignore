@@ -1,0 +1,16 @@
+# IDE files
+.idea
+
+## Node and Bower
+node_modules/
+bower_components/
+npm-debug.log
+
+# Other
+.DS_Store
+
+# Build
+public/js/bundle.js
+
+version.json
+webpack.local.config.js

@@ -1,0 +1,43 @@
+{
+  "name": "marionettejs.tabs-view",
+  "version": "0.0.2",
+  "description": "TabsView module for marionettejs",
+  "main": "lib/tabs.view.js",
+  "scripts": {
+    "webpack:build:prod": "./node_modules/.bin/webpack --progress --colors --optimize-minimize true --config webpack.config.js --output-library-target umd",
+    "webpack:build:dev": "./node_modules/.bin/webpack --progress --colors --devtool source-map --config webpack.config.js --output-library-target umd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.galament.net:npm/marionette_tabs_view.git"
+  },
+  "keywords": [
+    "Marionettejs",
+    "TabsView",
+    "Tabs",
+    "Tab"
+  ],
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "backbone": "^1.3.3",
+    "backbone.marionette": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "minimist": "^1.2.0",
+    "optimist": "^0.6.1",
+    "recursive-readdir": "^2.1.1",
+    "requestify": "^0.2.5",
+    "svgstore-cli": "^1.1.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.4.1",
+    "webpack-node-externals": "^1.6.0",
+    "webpack-version-file": "^0.1.3"
+  },
+  "author": "Alex V Kotelnikov",
+  "license": "MIT"
+}

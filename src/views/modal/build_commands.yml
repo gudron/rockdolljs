@@ -1,0 +1,4 @@
+npm:
+  - "npm install --prefix {{ app.root_dir }}"
+  - "npm run --prefix {{ app.root_dir }} webpack:build:dev"
+  - "npm run ---prefix {{ app.root_dir }} webpack:build:prod"
